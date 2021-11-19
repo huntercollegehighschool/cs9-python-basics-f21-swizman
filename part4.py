@@ -1,6 +1,7 @@
 '''
 ______
-PART 4
+# PART 4
+
 ______
 Write a program that prompts the user to enter two integer inputs. Those two number will be the base and height of a triangle. 
 The program will then output the area of that triangle. (Reminder: the area of a triangle can be calculated by (base * height)/2 ).
@@ -14,3 +15,7 @@ The area of the triangle is 12.0
 '''
 
 #start writing your code below
+print("plug in base and height, and find the area of you triangle.")
+base = int(input("Enter a base: "))
+height = int(input("Enter a height: "))
+print("The area of your triangle is", (base * height)/2)
